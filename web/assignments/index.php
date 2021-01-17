@@ -10,7 +10,6 @@
 </head>
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
-  
   <div class="page-content">
     <p>Coming Soon</p>
   </div>
