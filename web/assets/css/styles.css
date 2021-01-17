@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.text-right {
+    text-align: right;
+}
+
+ul, p, h1 {
+    margin-top: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #6EC1E4;
+}
+
+body { 
+    background-color: #dddddd;
+    min-height: 100vh; 
+    
+}
+
+header {
+    background-color: #ffffff;
+    color: #929292;
+}
+
+#logo {
+    text-align: center;
+    padding: 1.3em 0;
+}
+
+#logo img {
+    max-height: 100px;
+}
+
+#logo #site-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding-top: 0.8em;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0 6%;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.1);
+}
+
+.nav-items {
+    list-style-type: none;
+    padding: 0 2em;
+    margin: 0;
+}
+
+.nav-items li {
+    display: inline-block;
+}
+
+.nav-items li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8em;
+    padding: 1.2em 0.3em;
+    margin: 0 0.5em;
+    letter-spacing: 2px;
+}
+
+.nav-items li a i {
+    color: #969696;
+    font-size: 1.3em;
+}
+
+.nav-items li a:hover, .nav-items li a:hover i {
+    color: #6EC1E4;
+}
+
+.page-content {
+    background-color: #ffffff;
+    width: 80vw;
+    margin: 3em auto;
+    max-width: 1000px;
+    padding: 2em 2em;
+}
+
+/* RESUME STYLES */
+
+#resume-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #418AB3;
+}
+
+#resume-header h1, #resume-header div {
+    display: inline-block;
+}
+
+#resume-table {
+    border-collapse: collapse;
+}
+
+#resume-table td {
+    vertical-align: top;
+    padding: 0.7em 1em;
+}
+
+#resume-table tr {
+    border-bottom: 2px solid #418AB3;
+}
+
+#resume-table tr:last-child {
+    border-bottom-width: 0px;
+}
+
+#resume-table td:first-child {
+    text-transform: uppercase;
+}
+
+.resume-block {
+    margin-bottom: 0.5em;
+}
+
+.block-title {
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+
+
+
+/* END RESUME STYLES */
