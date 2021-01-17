@@ -1,5 +1,5 @@
 <?php
-$_SERVER['DOCUMENT_ROOT'] = 'C:/xampp/htdocs/heroku/homepage/web';
+
 ?>
 
 <!DOCTYPE html>
